@@ -1,0 +1,17 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: IIM_Dragon_1_small.png (256 x 256)
+# $TexturePacker:SmartUpdate:388c6b3198510f45a38a9f98dde282aa:8b9f8a9cbd3b66dc6369b59c49f918aa:14aa0d8b7cb0310f6b3ea1f8f8c8df86$
+#
+
+IIM_Dragon_atlas_0000_Joint07;2;169;145;85;0.503448275862069;0.5058823529411764
+IIM_Dragon_atlas_0001_Joint06;82;12;89;66;0.47191011235955055;0.4545454545454546
+IIM_Dragon_atlas_0002_Joint05;204;164;45;90;0.5;0.5166666666666666
+IIM_Dragon_atlas_0003_Joint04;2;92;79;75;0.5;0.5
+IIM_Dragon_atlas_0004_Joint03;83;80;52;87;0.5;0.5
+IIM_Dragon_atlas_0005_Joint02;2;26;78;64;0.4935897435897436;0.5
+IIM_Dragon_atlas_0006_Joint01;149;133;53;121;0.5;0.5

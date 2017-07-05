@@ -1,0 +1,3010 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491179cae0ea2cc49a39c110834d1f4a, type: 3}
+  m_Name: LiveControl
+  m_EditorClassIdentifier: 
+  my_guid: 6e30c29d49e9dac46991187148b6b98c
+  IsLearning: 0
+  scrollpos: {x: 0, y: 6095.00195}
+  scrollposInspector: {x: 0, y: 0}
+  oscMappingItemList:
+  - hostObj: {fileID: 11400000}
+    address: /1
+    min: 0
+    max: 0
+    mappingMIN: 0
+    mappingMAX: 0
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/2nav1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/stop1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/fader1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/2nav2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/stop2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/fader2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/2nav3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/stop3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/fader3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/2nav4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/stop4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/fader4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/2nav5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/stop5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/fader5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/2nav6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/stop6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/fader6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/2nav7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/stop7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/fader7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/2nav8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/stop8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/toggle1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/nav1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/nav2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/nav3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/nav4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push9
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push10
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push11
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push12
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push13
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push14
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push15
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push16
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push17
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push18
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push19
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push20
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push21
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push22
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push23
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push24
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push25
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push26
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push27
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push28
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2
+    min: 0
+    max: 0
+    mappingMIN: 0
+    mappingMAX: 0
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/2nav1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/fader1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/2nav2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/fader2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/2nav3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/fader3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/2nav4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/fader4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/2nav5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/fader5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/2nav6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/fader6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/2nav7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/fader7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/nav6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/nav7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/rotary1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/fader8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/2nav8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/nav3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/nav2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/nav1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/nav5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/nav4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3
+    min: 0
+    max: 0
+    mappingMIN: 0
+    mappingMAX: 0
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/2nav1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/2nav2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/2nav3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/2nav4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/2nav5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/2nav6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/2nav7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/rotary5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/rotary6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/rotary7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/rotary8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/rotary1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/rotary2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/rotary3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/rotary4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/toggle0
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/push1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/nav6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/nav5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/nav4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/nav3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/nav2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/nav1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4
+    min: 0
+    max: 0
+    mappingMIN: 0
+    mappingMAX: 0
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/2nav1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/2nav2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/2nav3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/2nav4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/2nav5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/2nav6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/2nav7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/2nav8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/2nav9
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/2nav10
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/2nav11
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/2nav12
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/2nav13
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multifader1/1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multifader1/2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multifader1/3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multifader1/4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multifader1/5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multifader1/6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multifader1/7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multifader1/8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multifader1/9
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multifader1/10
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multifader1/11
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multifader1/12
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multifader1/13
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multifader1/14
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multifader1/15
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multifader1/16
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/fader1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/toggle1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/toggle2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/toggle3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/toggle4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/toggle5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/toggle6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/toggle7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/toggle0
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/nav7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/nav6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/nav5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/nav4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/nav3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/1/1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/1/2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/1/3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/1/4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/1/5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/1/6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/1/7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/1/8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/1/9
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/1/10
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/1/11
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/1/12
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/1/13
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/1/14
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/1/15
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/1/16
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/2/1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/2/2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/2/3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/2/4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/2/5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/2/6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/2/7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/2/8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/2/9
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/2/10
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/2/11
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/2/12
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/2/13
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/2/14
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/2/15
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/2/16
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/3/1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/3/2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/3/3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/3/4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/3/5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/3/6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/3/7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/3/8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/3/9
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/3/10
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/3/11
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/3/12
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/3/13
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/3/14
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/3/15
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/3/16
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/4/1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/4/2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/4/3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/4/4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/4/5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/4/6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/4/7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/4/8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/4/9
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/4/10
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/4/11
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/4/12
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/4/13
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/4/14
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/4/15
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/4/16
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/5/1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/5/2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/5/3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/5/4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/5/5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/5/6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/5/7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/5/8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/5/9
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/5/10
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/5/11
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/5/12
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/5/13
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/5/14
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/5/15
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/5/16
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/6/1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/6/2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/6/3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/6/4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/6/5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/6/6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/6/7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/6/8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/6/9
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/6/10
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/6/11
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/6/12
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/6/13
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/6/14
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/6/15
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/6/16
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/7/1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/7/2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/7/3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/7/4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/7/5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/7/6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/7/7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/7/8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/7/9
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/7/10
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/7/11
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/7/12
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/7/13
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/7/14
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/7/15
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/multitoggle1/7/16
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5
+    min: 0
+    max: 0
+    mappingMIN: 0
+    mappingMAX: 0
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/xy1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/push15
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/push10
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/push9
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/push8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/push7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/push6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/push5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/push4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/push3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/push2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/push1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/2nav4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/2nav3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/2nav2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/2nav1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/nav6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/nav5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/nav4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/nav3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/nav2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/nav1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6
+    min: 0
+    max: 0
+    mappingMIN: 0
+    mappingMAX: 0
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle9
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle10
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle11
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle12
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle13
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle14
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle15
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle16
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle17
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle18
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle19
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle20
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle21
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle22
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle23
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle24
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle25
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle26
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle27
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle28
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle29
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle30
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle31
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle32
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle33
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle34
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle35
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle36
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle37
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle38
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle39
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle40
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle41
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle42
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle43
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle44
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle45
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle46
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle47
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle48
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/toggle49
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/nav1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/nav2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/nav3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/nav4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/nav5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /6/nav6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7
+    min: 0
+    max: 0
+    mappingMIN: 0
+    mappingMAX: 0
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/push1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/push2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/push3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/push4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/push5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/push6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/push7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/push8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/push9
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/push10
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/push11
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/push12
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/fader0
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/nav2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/nav1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /8
+    min: 0
+    max: 0
+    mappingMIN: 0
+    mappingMAX: 0
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /8/push1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /8/push2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /8/push3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /8/push4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /8/push5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /8/push6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /8/push7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /8/push8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /8/push9
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /8/push10
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /8/push11
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /8/push12
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /8/fader0
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /8/nav2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /8/nav1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /accxyz
+    min: -1
+    max: 1
+    mappingMIN: -1
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: de063b1151ef54000bc531749f01ff81
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - colorPickerTex: {fileID: 2800000, guid: 541ecaa682852451d93c3ee60dc9e378, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

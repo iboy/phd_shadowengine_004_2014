@@ -1,0 +1,458 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491179cae0ea2cc49a39c110834d1f4a, type: 3}
+  m_Name: Mix2
+  m_EditorClassIdentifier: 
+  my_guid: 4690f05ab245741409dbcdac972e978e
+  IsLearning: 0
+  scrollpos: {x: 0, y: 974}
+  scrollposInspector: {x: 0, y: 0}
+  oscMappingItemList:
+  - hostObj: {fileID: 11400000}
+    address: /1
+    min: 0
+    max: 0
+    mappingMIN: 0
+    mappingMAX: 0
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/rotary1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/rotary2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/rotary3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/rotary4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/rotary5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/rotary6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/fader1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/fader2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/fader3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/toggle1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/toggle2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/toggle3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/toggle4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/push4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2
+    min: 0
+    max: 0
+    mappingMIN: 0
+    mappingMAX: 0
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader1/1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader1/2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader1/3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader1/4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader1/5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader1/6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader1/7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader1/8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader1/9
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader1/10
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader1/11
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader1/12
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader1/13
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader1/14
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader1/15
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader1/16
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader2/1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader2/2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader2/3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader2/4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader2/5
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader2/6
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader2/7
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader2/8
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader2/9
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader2/10
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader2/11
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader2/12
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader2/13
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader2/14
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader2/15
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/multifader2/16
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3
+    min: 0
+    max: 0
+    mappingMIN: 0
+    mappingMAX: 0
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/xy1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/xy2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /accxyz
+    min: -1
+    max: 1
+    mappingMIN: -1
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1

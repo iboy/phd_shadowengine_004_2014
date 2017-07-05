@@ -1,0 +1,102 @@
+fileFormatVersion: 2
+guid: e65b3b688e2c84e779e006f96e18d190
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BW_Widemouth_Hed
+    21300002: BW_Widemouth_UpperBody
+    21300004: BW_Widemouth_RightArm
+    21300006: BW_Widemouth_LeftArm
+    21300008: BW_Widemouth_LowerBody
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BW_Widemouth_Hed
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 178
+        width: 105
+        height: 105
+      alignment: 9
+      pivot: {x: .72896421, y: .147467628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BW_Widemouth_UpperBody
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 199
+        width: 116
+        height: 70
+      alignment: 9
+      pivot: {x: .522680223, y: .911557853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BW_Widemouth_RightArm
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 124
+        width: 56
+        height: 47
+      alignment: 9
+      pivot: {x: .702031255, y: .757319331}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BW_Widemouth_LeftArm
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 119
+        width: 61
+        height: 23
+      alignment: 9
+      pivot: {x: .157281727, y: .684630036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BW_Widemouth_LowerBody
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 134
+        height: 103
+      alignment: 9
+      pivot: {x: .46006006, y: .947040141}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

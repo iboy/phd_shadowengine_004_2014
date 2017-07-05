@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: 5ae020f4ba14a44418f267ef5be9a4ff
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BW_Mr_Brown_Head
+    21300002: BW_Mr_Brown_Body
+    21300004: BW_Mr_Brown_UpperArm
+    21300006: BW_Mr_Brown_LowerArm
+    21300008: BW_Mr_Brown_LeftLeg
+    21300010: BW_Mr_Brown_RightLeg
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BW_Mr_Brown_Head
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 169
+        width: 117
+        height: 114
+      alignment: 9
+      pivot: {x: .623152852, y: .186670274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BW_Mr_Brown_Body
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 150
+        width: 94
+        height: 133
+      alignment: 9
+      pivot: {x: .728382051, y: .695812345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BW_Mr_Brown_UpperArm
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 88
+        width: 55
+        height: 60
+      alignment: 9
+      pivot: {x: .731116831, y: .875554144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BW_Mr_Brown_LowerArm
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 103
+        width: 68
+        height: 66
+      alignment: 9
+      pivot: {x: .715804756, y: .153877839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BW_Mr_Brown_LeftLeg
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 10
+        width: 52
+        height: 91
+      alignment: 9
+      pivot: {x: .431712449, y: .875856102}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BW_Mr_Brown_RightLeg
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 13
+        width: 52
+        height: 88
+      alignment: 9
+      pivot: {x: .545015216, y: .767642379}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

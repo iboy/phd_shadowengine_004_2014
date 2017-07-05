@@ -1,0 +1,72 @@
+fileFormatVersion: 2
+guid: 95e810c6899624659aa0bca9acd2ca1d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: IIM_Women_1_psd_Top
+    21300002: IIM_Women_1_psd_2
+    21300004: IIM_Women_1_psd_3
+    21300006: IIM_Women_1_psd_4
+    21300008: IIM_Women_1_psd_bottom
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: IIM_Women_1_psd_Top
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 917
+        width: 1465
+        height: 2994
+      alignment: 9
+      pivot: {x: .49359253, y: .563298702}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IIM_Women_1_psd_bottom
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 184
+        width: 1329
+        height: 2240
+      alignment: 9
+      pivot: {x: .517164588, y: .98090601}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

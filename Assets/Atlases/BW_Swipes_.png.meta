@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: 46af609a538414ad09fd018ee5870da5
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BW_Swipes_Head
+    21300002: BW_Swipes_Body
+    21300004: BW_Swipes_Arm
+    21300006: BW_Swipes_LeftLeg
+    21300008: BW_Swipes_RightLeg
+    21300010: BW_Swipes_LowerArm
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BW_Swipes_Head
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 107
+        height: 130
+      alignment: 9
+      pivot: {x: .282448143, y: .103715517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BW_Swipes_Body
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 162
+        width: 86
+        height: 121
+      alignment: 9
+      pivot: {x: .585722983, y: .864135742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BW_Swipes_Arm
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 69
+        width: 55
+        height: 79
+      alignment: 9
+      pivot: {x: .288113952, y: .903161347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BW_Swipes_LeftLeg
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 40
+        height: 54
+      alignment: 9
+      pivot: {x: .537222266, y: .935814142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BW_Swipes_RightLeg
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 0
+        width: 44
+        height: 53
+      alignment: 9
+      pivot: {x: .330626756, y: .952732146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BW_Swipes_LowerArm
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 69
+        width: 78
+        height: 48
+      alignment: 9
+      pivot: {x: .113500156, y: .476149887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

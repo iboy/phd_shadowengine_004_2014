@@ -1,0 +1,12 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: IIM_Women_1_small.png (512 x 512)
+# $TexturePacker:SmartUpdate:d3b81288520bbd530256925975f9ea11:de4a8db7eb0968fef9e0bbe40aa6d87e:eaffeb39aa92b0409d21dd137699dc81$
+#
+
+IIM_Set2_Women_001_atlas_0000_Part2;2;210;147;300;0.5;0.5
+IIM_Set2_Women_001_atlas_0001_Part1;151;286;133;224;0.5;0.5

@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 80b3368ce5b644198bbd6447a8cf3305
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Thatcher_head
+    21300002: Fry_Thatcher_Umbrella
+    21300004: Fry_Thatcher_UpperBody
+    21300006: Fry_Thatcher_LowerArm
+    21300008: Fry_Thatcher_UpperArm
+    21300010: Fry_Thatcher_Left_Leg
+    21300012: Fry_Thatcher_Right_Leg
+    21300014: Fry_Thatcher_LowerBody
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Thatcher_head
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 159
+        width: 102
+        height: 122
+      alignment: 9
+      pivot: {x: .513526082, y: .0501759015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fry_Thatcher_Umbrella
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 128
+        width: 57
+        height: 128
+      alignment: 9
+      pivot: {x: .799024463, y: .091443181}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fry_Thatcher_UpperBody
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 87
+        width: 61
+        height: 69
+      alignment: 9
+      pivot: {x: .533043504, y: .211851478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fry_Thatcher_LowerArm
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 48
+        width: 61
+        height: 36
+      alignment: 9
+      pivot: {x: .76036495, y: .456959188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fry_Thatcher_UpperArm
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 93
+        width: 37
+        height: 44
+      alignment: 9
+      pivot: {x: .698921204, y: .808137715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fry_Thatcher_Left_Leg
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 7
+        width: 27
+        height: 30
+      alignment: 9
+      pivot: {x: .757916927, y: .767819643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fry_Thatcher_Right_Leg
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 7
+        width: 24
+        height: 27
+      alignment: 9
+      pivot: {x: .706062317, y: .834704995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fry_Thatcher_LowerBody
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 22
+        width: 76
+        height: 92
+      alignment: 9
+      pivot: {x: .378833175, y: .864343286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,994 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491179cae0ea2cc49a39c110834d1f4a, type: 3}
+  m_Name: PuppetOSCMapping
+  m_EditorClassIdentifier: 
+  my_guid: e6c1629fe732e48c193102a122a0b754
+  IsLearning: 0
+  scrollpos: {x: 0, y: 2627}
+  scrollposInspector: {x: 0, y: 0}
+  oscMappingItemList:
+  - hostObj: {fileID: 11400000}
+    address: /1/Pad2PuppetController1/1
+    min: -1
+    max: 1
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/Pad2PuppetController1/2
+    min: -1
+    max: 1
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/Pad2PuppetController1/3
+    min: -1
+    max: 1
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/Pad2Ctrl1Rotate
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/IrisLocationXYPad
+    min: -1.20000005
+    max: 1.20000005
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/IrisTransitionSpeed
+    min: 0
+    max: .200000003
+    mappingMIN: 0
+    mappingMAX: .200000003
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/ManualFadeSlider
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/AutoFade
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/DOFToggle
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/DOFFocalDistance
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/CameraTypeToggle/1/1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/CameraTypeToggle/2/1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/FXBlur
+    min: 0
+    max: 3.5999999
+    mappingMIN: 0
+    mappingMAX: 3.5999999
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/FXMotionBlur
+    min: 0
+    max: .920000017
+    mappingMIN: 0
+    mappingMAX: .920000017
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/FXGreyScaleToggle
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/FXMonochromeToggle
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/FXInvertColors
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/FXNoiseToggle
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/FXSepiaToggle
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/FXSunShaftsToggle
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/FXVignetteSize
+    min: 0
+    max: 100
+    mappingMIN: 0
+    mappingMAX: 100
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/FXVignetteBlur
+    min: 0
+    max: 12
+    mappingMIN: 0
+    mappingMAX: 12
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/FXVignetteChromatic
+    min: -80
+    max: 80
+    mappingMIN: -80
+    mappingMAX: 80
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/FXVignetteSetDefaults
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/CameraZoomOrtho
+    min: 0
+    max: 1
+    mappingMIN: .00100000005
+    mappingMAX: 2.6099999
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/CameraZoomPerspective
+    min: 0
+    max: 1
+    mappingMIN: 1
+    mappingMAX: 179
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/CamOrthoDefaultSize
+    min: 0
+    max: 1
+    mappingMIN: 2.6099999
+    mappingMAX: 8
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/CamPerspectiveDefaultFOV
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/FXShaftColorPickerXY
+    min: 2
+    max: 398
+    mappingMIN: 2
+    mappingMAX: 398
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/FXSunShaftsIntensity
+    min: 0
+    max: 24
+    mappingMIN: 0
+    mappingMAX: 24
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/SceneSelector/4/1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/SceneSelector/4/2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/SceneSelector/4/3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/SceneSelector/4/4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/SceneSelector/3/1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/SceneSelector/3/2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/SceneSelector/3/3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/SceneSelector/3/4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/SceneSelector/4/1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/SceneSelector/4/2
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/SceneSelector/4/3
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/SceneSelector/4/4
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/ObjectsToggle/5/1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/ObjectsToggle/1/16
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/LightingStates/16/1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /1/Pad2PuppetController1/1
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /3/FXSunShaftsToggle
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/Pad2PuppetController1/1
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/Pad2PuppetController3/1
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/Pad2PuppetController3/2
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/Pad2PuppetController3/3
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/Pad2PuppetController3/4
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/Pad2PuppetController3/5
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/Pad2PuppetController3/6
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/pubdoor
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: -72
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/pupopendoor
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: -72
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/motorcycleSmoke
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/pipeSmoke
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /4/pipeFlame
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/Pad2Ctrl3Rotate
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/Pad2PuppetController2/1
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/Pad2PuppetController2/2
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/Pad2PuppetController2/3
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/Pad2PuppetController2/4
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/Pad2PuppetController2/5
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/Pad2Ctrl2Rotate
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /2/Pad2Ctrl2Scale
+    min: .100000001
+    max: 4
+    mappingMIN: .100000001
+    mappingMAX: 4
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/Pad2PuppetControllerO4/1
+    min: -6
+    max: 6
+    mappingMIN: -12
+    mappingMAX: 12
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/Pad2PuppetControllerO4/2
+    min: -6
+    max: 6
+    mappingMIN: -12
+    mappingMAX: 12
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/Pad2PuppetControllerO4/3
+    min: -6
+    max: 6
+    mappingMIN: -12
+    mappingMAX: 12
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/Pad2PuppetControllerO4/4
+    min: -6
+    max: 6
+    mappingMIN: -12
+    mappingMAX: 12
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /7/Pad2PuppetControllerO4Rotate
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/Pad2PuppetController3/1
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: -6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/Pad2PuppetController3/2
+    min: -6
+    max: 6
+    mappingMIN: -8
+    mappingMAX: -8
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/Pad2PuppetController3/3
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: -6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/Pad2PuppetControllerLegs/1
+    min: -2
+    max: 2
+    mappingMIN: -4
+    mappingMAX: 4
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/Pad2PuppetControllerLegs/2
+    min: -2
+    max: 2
+    mappingMIN: -4
+    mappingMAX: 4
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/Pad2PuppetControllerPipe/1
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /5/Pad2Ctrl3Scale
+    min: .100000001
+    max: 4
+    mappingMIN: .100000001
+    mappingMAX: 4
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /9/multixy4/1
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /9/multixy4/2
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /9/multixy4/3
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /9/multixy4/4
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /9/multixy4/5
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /9/fader4
+    min: .100000001
+    max: 4
+    mappingMIN: .100000001
+    mappingMAX: 4
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /CameraMove
+    min: -1
+    max: 1
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /9/Pad2PuppetControllerLegs/1
+    min: -2
+    max: 2
+    mappingMIN: -8
+    mappingMAX: 0
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /9/Pad2PuppetControllerLegs/2
+    min: -2
+    max: 2
+    mappingMIN: -8
+    mappingMAX: 0
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /11/multixy6/1
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /11/multixy6/2
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /11/multixy6/3
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /11/multixy6/4
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /11/Pad2PuppetControllerLegs/1
+    min: -2
+    max: 2
+    mappingMIN: -4
+    mappingMAX: 4
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /11/Pad2PuppetControllerLegs/2
+    min: -2
+    max: 2
+    mappingMIN: -8
+    mappingMAX: 0
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /10/thatch/1
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /10/thatch/2
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /10/thatch/3
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /10/thatch/4
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /10/Pad2PuppetControllerLegs/1
+    min: -2
+    max: 2
+    mappingMIN: -8
+    mappingMAX: 0
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /10/Pad2PuppetControllerLegs/2
+    min: -2
+    max: 2
+    mappingMIN: -8
+    mappingMAX: 0
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /10/fader5
+    min: .100000001
+    max: 4
+    mappingMIN: .100000001
+    mappingMAX: 4
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /10/PadToggleRotate
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /12/multixy7/1
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /12/fader7
+    min: .100000001
+    max: 4
+    mappingMIN: .100000001
+    mappingMAX: 4
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /12/push33
+    min: 0
+    max: 1
+    mappingMIN: 0
+    mappingMAX: 1
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /14/multixyRight/1
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /14/multixyRight/2
+    min: -6
+    max: 6
+    mappingMIN: -6
+    mappingMAX: 6
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /14/multixyBottom/1
+    min: -2
+    max: 2
+    mappingMIN: -4
+    mappingMAX: 4
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /14/multixyBottom/2
+    min: -2
+    max: 2
+    mappingMIN: -4
+    mappingMAX: 4
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /14/multixyBottom/3
+    min: -2
+    max: 2
+    mappingMIN: -4
+    mappingMAX: 4
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /14/multixyBottom/4
+    min: -2
+    max: 2
+    mappingMIN: -4
+    mappingMAX: 4
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /14/multixy/1
+    min: -6
+    max: 6
+    mappingMIN: -10
+    mappingMAX: 10
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /14/multixy/2
+    min: -6
+    max: 6
+    mappingMIN: -10
+    mappingMAX: 10
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /14/multixy/3
+    min: -6
+    max: 6
+    mappingMIN: -10
+    mappingMAX: 10
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /14/multixy/4
+    min: -6
+    max: 6
+    mappingMIN: -10
+    mappingMAX: 10
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /14/Pad2Ctrl3Scale/
+    min: 0
+    max: 1
+    mappingMIN: .100000001
+    mappingMAX: 4
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /16/multixyTop/1
+    min: -6
+    max: 6
+    mappingMIN: -8
+    mappingMAX: 8
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /16/multixyTop/2
+    min: -6
+    max: 6
+    mappingMIN: -8
+    mappingMAX: 8
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /16/multixyBottom/1
+    min: -6
+    max: 6
+    mappingMIN: -8
+    mappingMAX: 8
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /16/multixyBottom/2
+    min: -6
+    max: 6
+    mappingMIN: -8
+    mappingMAX: 8
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /16/multixyBottom/3
+    min: -6
+    max: 6
+    mappingMIN: -8
+    mappingMAX: 8
+    isLearning: 0
+    collapsed: 1
+  - hostObj: {fileID: 11400000}
+    address: /16/multixyTop/3
+    min: -6
+    max: 6
+    mappingMIN: -8
+    mappingMAX: 8
+    isLearning: 0
+    collapsed: 1
