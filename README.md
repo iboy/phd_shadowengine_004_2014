@@ -8,3 +8,5 @@ Karagöz
 UniOSC
 Cinematic effects
 Custom Unity editor UI to enable performance
+
+![iPad prototype](screenshot.jpg)
