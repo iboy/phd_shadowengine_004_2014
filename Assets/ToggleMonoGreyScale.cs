@@ -36,6 +36,10 @@ namespace UniOSC{
 		public GameObject objectToToggle8;
 		public GameObject objectToToggle9;
 		public GameObject objectToToggle10;
+
+		public GameObject objectToLeave1;
+		public GameObject objectToLeave2;
+		public GameObject objectToLeave3;
 		private Color black;
 		private Color tintColor1;
 		private Color tintColor2;
@@ -58,7 +62,8 @@ namespace UniOSC{
 		private SpriteRenderer objectToToggleRenderer8;
 		private SpriteRenderer objectToToggleRenderer9;
 		private SpriteRenderer objectToToggleRenderer10;
-		
+
+		private SpriteRenderer objectToLeaveRenderer1;
 		//private Type _compType1;
 		
 		
@@ -71,6 +76,14 @@ namespace UniOSC{
 
 
 			black = new Color(0f,0f,0f,1f); //black
+
+			if (objectToLeave1 !=null) {
+
+				objectToLeaveRenderer1 = objectToLeave1.GetComponent<SpriteRenderer>();
+				
+				tintColor1 = objectToLeaveRenderer1.color;
+
+			}
 
 			if (objectToToggle1 !=null) {
 			// if renderer / material has tintcolor (not spriterenderer)
@@ -235,8 +248,9 @@ namespace UniOSC{
 					// TODO if the shader / material type varies the way to access and change the color varies
 					// catch those differences here and have a toggle? or detect the renderer type.
 					//objectToToggle1.renderer.sharedMaterial.SetColor ("_TintColor", black);
-
+					if (objectToToggleRenderer1 != null) {
 					objectToToggleRenderer1.color = black;
+					}
 				
 				} else { 			
 				
@@ -251,8 +265,9 @@ namespace UniOSC{
 			if (toggleState == true && objectToToggle2 !=null) {
 						
 					//objectToToggle2.renderer.sharedMaterial.SetColor ("_TintColor", black);
-					
-					objectToToggleRenderer2.color = black;
+					if (objectToToggleRenderer2 != null) {
+						objectToToggleRenderer2.color = black;
+					}
 					
 				} else { 
 										
@@ -266,8 +281,9 @@ namespace UniOSC{
 			if (toggleState == true && objectToToggle3 !=null) {
 					
 					//objectToToggle3.renderer.sharedMaterial.SetColor ("_TintColor", black);
-					objectToToggleRenderer3.color = black;
-					
+					if (objectToToggleRenderer3 != null) {
+						objectToToggleRenderer3.color = black;
+					}
 				} else { 
 					
 					//objectToToggle3.renderer.sharedMaterial.SetColor ("_TintColor", tintColor3);
@@ -281,7 +297,9 @@ namespace UniOSC{
 				if (toggleState == true && objectToToggle4 !=null) {
 					
 					//objectToToggle4.renderer.sharedMaterial.SetColor ("_TintColor", black);
+					if (objectToToggleRenderer4 != null) {
 					objectToToggleRenderer4.color = black;
+					}
 				} else { 
 					
 					//objectToToggle4.renderer.sharedMaterial.SetColor ("_TintColor", tintColor4);
@@ -295,7 +313,9 @@ namespace UniOSC{
 				if (toggleState == true && objectToToggle5 !=null) {
 					
 					//objectToToggle5.renderer.sharedMaterial.SetColor ("_TintColor", black);
-					objectToToggleRenderer5.color = black;
+					if (objectToToggleRenderer5 != null) {
+						objectToToggleRenderer5.color = black;
+					}
 				} else { 
 					
 					//objectToToggle5.renderer.sharedMaterial.SetColor ("_TintColor", tintColor5);
@@ -309,7 +329,9 @@ namespace UniOSC{
 				if (toggleState == true && objectToToggle6 !=null) {
 					
 					//objectToToggle6.renderer.sharedMaterial.SetColor ("_TintColor", black);
-					objectToToggleRenderer6.color = black;
+					if (objectToToggleRenderer6 != null) {
+						objectToToggleRenderer6.color = black;
+					}
 				} else { 
 					
 					//objectToToggle6.renderer.sharedMaterial.SetColor ("_TintColor", tintColor6);
@@ -323,7 +345,9 @@ namespace UniOSC{
 				if (toggleState == true && objectToToggle7 !=null) {
 					
 					//objectToToggle7.renderer.sharedMaterial.SetColor ("_TintColor", black);
-					objectToToggleRenderer7.color = black;
+					if (objectToToggleRenderer7 != null) {
+						objectToToggleRenderer7.color = black;
+					}
 				} else { 
 					
 					//objectToToggle7.renderer.sharedMaterial.SetColor ("_TintColor", tintColor7);
@@ -338,7 +362,9 @@ namespace UniOSC{
 				if (toggleState == true && objectToToggle8 !=null) {
 					
 					//objectToToggle8.renderer.sharedMaterial.SetColor ("_TintColor", black);
-					objectToToggleRenderer8.color = black;
+					if (objectToToggleRenderer8 != null) {
+						objectToToggleRenderer8.color = black;
+					}
 				} else { 
 					
 					//objectToToggle8.renderer.sharedMaterial.SetColor ("_TintColor", tintColor8);
@@ -353,7 +379,9 @@ namespace UniOSC{
 				if (toggleState == true && objectToToggle9 !=null) {
 					
 					//objectToToggle9.renderer.sharedMaterial.SetColor ("_TintColor", black);
-					objectToToggleRenderer9.color = black;
+					if (objectToToggleRenderer1 != null) {
+						objectToToggleRenderer9.color = black;
+					}
 				} else { 
 					
 					//objectToToggle9.renderer.sharedMaterial.SetColor ("_TintColor", tintColor9);
@@ -368,7 +396,9 @@ namespace UniOSC{
 				if (toggleState == true && objectToToggle10 !=null) {
 					
 					//objectToToggle10.renderer.sharedMaterial.SetColor ("_TintColor", black);
-					objectToToggleRenderer10.color = black;
+					if (objectToToggleRenderer1 != null) {
+						objectToToggleRenderer10.color = black;
+					}
 				} else { 
 					
 					//objectToToggle10.renderer.sharedMaterial.SetColor ("_TintColor", tintColor10);

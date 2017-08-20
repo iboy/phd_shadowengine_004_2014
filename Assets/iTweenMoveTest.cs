@@ -31,7 +31,7 @@ public class iTweenMoveTest : MonoBehaviour {
 
 				disableColliders();
 				//setIsKinematicTrue();
-				iTween.MoveTo(gameObject, iTween.Hash("x", .4f,"y", 2.5f, "z", 0, "easeType", "easeInOutExpo", "loopType", "none", "delay", .5, "time", 1.8f));
+				iTween.MoveTo(gameObject, iTween.Hash("x", .4f,"y", 2.5f, "z", 0, "easeType", "easeInOutExpo", "loopType", "none", "delay", .2f, "time", 1.8f));
 				iTween.RotateTo(gameObject, iTween.Hash("y", 180.0f, "easeType", "easeInOutExpo", "loopType", "none", "delay", 2.0f, "time", 2.0f, "onComplete", "completedEntryAndRotate"));
 				//iTween.ShakeScale(root, iTween.Hash("amount", new Vector3(.02f,.02f,.02f), "delay", 0.2f, "time", 2.0f));
 				//iTween.ScaleTo(root, iTween.Hash("x", 2f,"y", 2f, "z", 1f, "time", 1.0f, "onComplete", "setIsKinematicFalse", "onCompleteTarget", collider1));

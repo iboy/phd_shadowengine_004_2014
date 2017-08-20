@@ -8,6 +8,8 @@ TagManager:
   - Puppet
   - Dragon_Puppet
   - IsDetachable
+  - rod
+  - Touchable
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
