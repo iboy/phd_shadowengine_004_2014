@@ -13,24 +13,29 @@ public class MouseTracker : MonoBehaviour {
 	public Camera perspectiveCamera;
 	public float mouseForce = 600;
 	public float mouseDragDamping = 6;
-	
+	private bool isMouseDown = false;
 	Transform jointTrans;
 	float dragDepth;
 	
 	void OnMouseDown ()
 	{
+		if (Input.touchCount ==1) { return; } 
+		isMouseDown = true; 
+
 		HandleInputBegin (Input.mousePosition);
-		Debug.Log("We've got mouse action - mousie down: x = "+Input.mousePosition.x+" y = "+Input.mousePosition.y);
+		//Debug.Log("We've got mouse action - mousie down: x = "+Input.mousePosition.x+" y = "+Input.mousePosition.y);
 	}
 	
 	void OnMouseUp ()
-	{
+	{   
+		isMouseDown = false; 
 		HandleInputEnd (Input.mousePosition);
 	}
 	
 	void OnMouseDrag ()
 	{
-		Debug.Log("We've got mouse action - mousie dragging: x = "+Input.mousePosition.x+" y = "+Input.mousePosition.y);
+		if (Input.touchCount > 0) { return; } 
+		//Debug.Log("We've got mouse action - mousie dragging: x = "+Input.mousePosition.x+" y = "+Input.mousePosition.y);
 		HandleInput (Input.mousePosition);
 	}
 	
@@ -56,7 +61,11 @@ public class MouseTracker : MonoBehaviour {
 	
 	public void HandleInputEnd (Vector3 screenPosition)
 	{
-		Destroy (jointTrans.gameObject);
+
+		//if (Input.touchCount == 0 && isMouseDown == false) {
+			Destroy (jointTrans.gameObject);
+		//}
+		
 	}
 	
 	Transform AttachJoint (Rigidbody rb, Vector3 attachmentPosition)
@@ -70,6 +79,7 @@ public class MouseTracker : MonoBehaviour {
 		
 		var joint = go.AddComponent<ConfigurableJoint> ();
 		joint.connectedBody = rb;
+		joint.axis = new Vector3(0,0,1);
 		joint.configuredInWorldSpace = true;
 		joint.xDrive = NewJointDrive (mouseForce, mouseDragDamping);
 		joint.yDrive = NewJointDrive (mouseForce, mouseDragDamping);

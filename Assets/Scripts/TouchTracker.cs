@@ -110,7 +110,7 @@ public class TouchTracker : MonoBehaviour {
 			}
 
 			if (mainCamera.enabled==true) {
-				Debug.Log("We are in touch moved");
+				//Debug.Log("We are in touch moved");
 				touchDeltaPosition = mainCamera.ScreenToWorldPoint(touchDeltaPosition);
 				TouchPointSprites[touch.fingerId].SetActive(true);
 				//TouchPointSprites[touch.fingerId].transform.position = new Vector3(touchDeltaPosition.x, touchDeltaPosition.y, touchOverlayZ); // orthographic camera mode. TODO change the -2 to 0. But adjust all instances.

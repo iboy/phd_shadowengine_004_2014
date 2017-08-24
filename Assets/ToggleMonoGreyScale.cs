@@ -36,6 +36,8 @@ namespace UniOSC{
 		public GameObject objectToToggle8;
 		public GameObject objectToToggle9;
 		public GameObject objectToToggle10;
+		public GameObject objectToToggle11;
+		public GameObject objectToToggle12;
 
 		public GameObject objectToLeave1;
 		public GameObject objectToLeave2;
@@ -51,6 +53,8 @@ namespace UniOSC{
 		private Color tintColor8;
 		private Color tintColor9;
 		private Color tintColor10;
+		private Color tintColor11;
+		private Color tintColor12;
 
 		private SpriteRenderer objectToToggleRenderer1;
 		private SpriteRenderer objectToToggleRenderer2;
@@ -62,6 +66,8 @@ namespace UniOSC{
 		private SpriteRenderer objectToToggleRenderer8;
 		private SpriteRenderer objectToToggleRenderer9;
 		private SpriteRenderer objectToToggleRenderer10;
+		private SpriteRenderer objectToToggleRenderer11;
+		private SpriteRenderer objectToToggleRenderer12;
 
 		private SpriteRenderer objectToLeaveRenderer1;
 		//private Type _compType1;
@@ -184,6 +190,24 @@ namespace UniOSC{
 				objectToToggleRenderer10 = objectToToggle10.GetComponent<SpriteRenderer>();
 				
 				tintColor10 = objectToToggleRenderer10.color;
+				
+			}
+
+			if (objectToToggle11 !=null) {
+				// if renderer / material has tintcolor (not spriterenderer)
+				//tintColor6 = objectToToggle6.renderer.sharedMaterial.GetColor ("_TintColor");
+				objectToToggleRenderer11 = objectToToggle11.GetComponent<SpriteRenderer>();
+				
+				tintColor11 = objectToToggleRenderer11.color;
+				
+			}
+
+			if (objectToToggle12 !=null) {
+				// if renderer / material has tintcolor (not spriterenderer)
+				//tintColor6 = objectToToggle6.renderer.sharedMaterial.GetColor ("_TintColor");
+				objectToToggleRenderer12 = objectToToggle12.GetComponent<SpriteRenderer>();
+				
+				tintColor12 = objectToToggleRenderer12.color;
 				
 			}
 
@@ -407,6 +431,40 @@ namespace UniOSC{
 				
 				
 			}
+
+			// 11
+			if (objectToToggle11 !=null) {
+				if (toggleState == true && objectToToggle11 !=null) {
+					
+					//objectToToggle10.renderer.sharedMaterial.SetColor ("_TintColor", black);
+					if (objectToToggleRenderer1 != null) {
+						objectToToggleRenderer11.color = black;
+					}
+				} else { 
+					
+					//objectToToggle10.renderer.sharedMaterial.SetColor ("_TintColor", tintColor10);
+					objectToToggleRenderer11.color = tintColor11;
+				} // end of object 10
+				
+				
+			}
+			// 12
+			if (objectToToggle12 !=null) {
+				if (toggleState == true && objectToToggle12 !=null) {
+					
+					//objectToToggle10.renderer.sharedMaterial.SetColor ("_TintColor", black);
+					if (objectToToggleRenderer1 != null) {
+						objectToToggleRenderer12.color = black;
+					}
+				} else { 
+					
+					//objectToToggle10.renderer.sharedMaterial.SetColor ("_TintColor", tintColor10);
+					objectToToggleRenderer12.color = tintColor12;
+				} // end of object 10
+				
+				
+			}
+
 		}
 
 
