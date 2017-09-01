@@ -88,7 +88,7 @@ public class TouchTracker : MonoBehaviour {
 		switch (touch.phase) {
 
 		case TouchPhase.Began:
-			//Debug.Log ("Handle Touch: "+touch.fingerId+" Began");
+			Debug.Log ("Handle Touch: "+touch.fingerId+" Began");
 			//TouchPointSprites[touch.fingerId].SetActive(true); // moved this to start from the new position - rather than the last stored position
 			//TouchPointSprites[touch.fingerId].SetActive(true);
 			break;
@@ -156,7 +156,7 @@ public class TouchTracker : MonoBehaviour {
 
 			//hit = new RaycastHit();
 			if (Physics.Raycast(ray, out hit)) {
-				//Debug.Log ("Touch: "+touch.fingerId+"  hit"+hit.collider.name);
+				Debug.Log ("Touch: "+touch.fingerId+"  hit"+hit.collider.name);
 
 				if (hit.rigidbody) { // is it a rigidbody
 					
@@ -187,7 +187,10 @@ public class TouchTracker : MonoBehaviour {
 						
 						//StartCoroutine (DragObject( hit.distance, touch, dragit));
 						
-					} // end of kinematic test
+				 
+
+
+					}// end of kinematic test
 					
 				} // end of rigid body test
 				

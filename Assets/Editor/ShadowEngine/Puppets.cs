@@ -1354,7 +1354,7 @@ namespace UniOSC
 						Selection.objects = new UnityEngine.Object[0];
 
 
-						GameObject[] newSelection = new GameObject[19];
+						GameObject[] newSelection = new GameObject[16];
 
 						newSelection [0] = BW_with_Violin;
 						newSelection [1] = BW_Tozer_Dog;		
@@ -1372,9 +1372,9 @@ namespace UniOSC
 						newSelection [13] = BW_Boy;
 						newSelection [14] = BW_Dick_Widemouth;
 						newSelection [15] = BW_Swipes;
-						newSelection [16] = BW_Mr_Fry;
-						newSelection [17] = BW_Fry_Thatcher;
-						newSelection [18] = Fry_Motorbike;
+						//newSelection [16] = BW_Mr_Fry;
+						//newSelection [17] = BW_Fry_Thatcher;
+						//newSelection [18] = Fry_Motorbike;
 
 
 						Selection.objects = newSelection;
