@@ -38,6 +38,7 @@ public class TouchTracker : MonoBehaviour {
 	//static List<GameObject> controllerTouchObjects = new List<GameObject>();
 	private SpringJoint springJoint;
 	private Ray ray;
+	private bool[] kinematicFlag = new bool[11];
 	//int controllerTouchObjectsSize;
 
 	void Start() {
@@ -190,7 +191,43 @@ public class TouchTracker : MonoBehaviour {
 				 
 
 
-					}// end of kinematic test
+					} else {
+
+					// handle the switching of isKinematic true rigidbodies here.
+
+						// Here we are detecting control points (in a spring network) that are
+						// set to isKinematic = true
+						// we treat them that same as a isKinematic = false rigidbody, but switch the isKinematic first.
+						// Then we switch it back on touch phase ended.
+
+
+						springJoint = TouchPointControllers[touch.fingerId].GetComponent<SpringJoint>();
+						springJoint.transform.position = hit.point;
+						
+						// check where the anchor is supposed to go
+						if (attachTouchDragsToCenterOfMass) {
+							
+							// check these values
+							Vector3 anchor = transform.TransformDirection(hit.rigidbody.centerOfMass) + hit.rigidbody.transform.position;
+							anchor = springJoint.transform.InverseTransformPoint(anchor);
+							//anchor = springJoint.transform.TransformPoint(anchor);
+							springJoint.anchor = anchor;
+							
+						} else {
+							springJoint.anchor = Vector3.zero;
+						}
+						
+						// set spring settings
+						springJoint.spring = spring;
+						springJoint.damper = damper;
+						springJoint.maxDistance = distance;
+						springJoint.connectedBody = hit.rigidbody;
+
+						// set the flag and switch the swtich - this may be failing and we might need an array of bool flags - one per touch.
+						kinematicFlag[touch.fingerId] = true;
+						springJoint.connectedBody.isKinematic = false;
+
+					}
 					
 				} // end of rigid body test
 				
@@ -243,8 +280,24 @@ public class TouchTracker : MonoBehaviour {
 		case TouchPhase.Ended:
 			//Debug.Log ("Handle Touch: "+touch.fingerId+" Ended");
 			if (springJoint) {
+		
+				if (kinematicFlag[touch.fingerId] == true) {
+					//hit.rigidbody.isKinematic = true;
+					//Debug.Log(kinematicFlag);
+					TouchPointControllers[touch.fingerId].GetComponent<SpringJoint>().connectedBody.isKinematic = true;
+					kinematicFlag[touch.fingerId] = false; 
+					
+				}
+
 				TouchPointControllers[touch.fingerId].GetComponent<SpringJoint>().connectedBody = null;
+			
+			
+		
+			
+			
 			}
+
+
 
 			TouchPointControllers[touch.fingerId].SetActive(false);
 

@@ -4,19 +4,19 @@ using System.Collections;
 public class SceneryAnimationTweenIn : MonoBehaviour {
 	//Define Enum
 	public enum SetEntryDirections{		FromTop, 	 FromBottom,   FromLeft, FromRight};
-
+	
 	public enum SetEasingTypes{ 		spring, easeInQuad,  easeOutQuad,  easeInOutQuad, 
-										easeInCubic, easeOutCubic, easeInOutCubic, 
-										easeInQuart, easeOutQuart, easeInOutQuart, 
-										easeInQuint, easeOutQuint, easeInOutQuint, 
-										easeInSine,	 easeOutSine, easeInOutSine, 
-										easeInExpo,  easeOutExpo, easeInOutExpo, 
-										easeInCirc,  easeOutCirc, easeInOutCirc, 
-										linear, 	  	  easeInBounce, 
-										easeOutBounce, easeInOutBounce, easeInBack, 
-										easeOutBack, easeInOutBack, easeInElastic, 
-										easeOutElastic, easeInOutElastic			};
-
+		easeInCubic, easeOutCubic, easeInOutCubic, 
+		easeInQuart, easeOutQuart, easeInOutQuart, 
+		easeInQuint, easeOutQuint, easeInOutQuint, 
+		easeInSine,	 easeOutSine, easeInOutSine, 
+		easeInExpo,  easeOutExpo, easeInOutExpo, 
+		easeInCirc,  easeOutCirc, easeInOutCirc, 
+		linear, 	  	  easeInBounce, 
+		easeOutBounce, easeInOutBounce, easeInBack, 
+		easeOutBack, easeInOutBack, easeInElastic, 
+		easeOutElastic, easeInOutElastic			};
+	
 	
 	//This is what you need to show in the inspector.
 	public SetEntryDirections SetEntryDirection;
@@ -30,23 +30,12 @@ public class SceneryAnimationTweenIn : MonoBehaviour {
 	public float outRotationSpeed = 1.0f;
 	public float randomDelayFactor = 1.0f;
 	public float randomSpeedFactor = 1.0f;
-	public string axis = "x";
-	// the destination angle is dependent on the direction of the axis
-	// the initial rotations of the game object and the desired direction of movement
-	// I'm sure there is a way to work this out
-	// but as it is - experiment with the value - could be 
-	// 0, 90, 180, 270 or
-	// 0, -90, -180, -270 
-	public float destinationAngle = 0f;
-	//public float endAngle = 90f;
 	public string triggerKey = "z";
-	int rotationCount = 0;
-	bool rotating = false;
-	//string axis;
-	//float startAngle;
-	//float endAngle;
+	string axis;
+	float startAngle;
+	float endAngle;
 	string myEasingType = "spring";
-
+	
 	//public GameObject root;
 	//public GameObject collider1;
 	//public GameObject collider2;
@@ -64,11 +53,11 @@ public class SceneryAnimationTweenIn : MonoBehaviour {
 		//int myInt = SetEntryDirections.SetEntryDirection;
 		randomDelayFactor = Random.Range(.5F, 1.5F);
 		randomSpeedFactor = Random.Range(.5F, 1.5F);
-
-
+		
+		onStage = false;
 		switch (SetEasingType) 
 		{
-		
+			
 		case SetEasingTypes.spring:
 			myEasingType = "spring";
 			break;
@@ -195,79 +184,82 @@ public class SceneryAnimationTweenIn : MonoBehaviour {
 			
 		case SetEasingTypes.easeInOutElastic:
 			myEasingType = "easeInOutElastic";
-				break;
+			break;
 		}
-
-
+		
+		
 		switch (SetEntryDirection) 
 		{
 		case SetEntryDirections.FromTop:
- 			
+			
 			axis = "x";
-			//startAngle = 180.0f;
-			//endAngle = 90.0f;
+			startAngle = 180.0f;
+			endAngle = 90.0f;
 			//Debug.Log("FromTop: StartAngle= "+startAngle+"; EndAngle="+endAngle+"; Axis="+axis);
 			break;
-
+			
 		case SetEntryDirections.FromBottom:
-
+			
 			axis = "x";
-			//startAngle = 0.0f;
-			//endAngle = 90.0f;
+			startAngle = 0.0f;
+			endAngle = 90.0f;
 			//Debug.Log("FromBottom: StartAngle= "+startAngle+"; EndAngle="+endAngle+"; Axis="+axis);
 			break;
 		case SetEntryDirections.FromLeft:
-
+			
 			axis = "y";
-			//startAngle = 0f;
-			//endAngle = -90.0f;
+			startAngle = 0f;
+			endAngle = -90.0f;
 			//Debug.Log("FromLeft: StartAngle= "+startAngle+"; EndAngle="+endAngle+"; Axis="+axis);
 			break;
 		case SetEntryDirections.FromRight:
 			axis = "y";
-			//startAngle = 180f;
-			//endAngle = 270f;
+			startAngle = 180f;
+			endAngle = 270f;
 			//Debug.Log("FromRight: StartAngle= "+startAngle+"; EndAngle="+endAngle+"; Axis="+axis);
-
+			
 			break;
 		}
-
+		
 		
 	}
 	
 	void Update () {
 		
-
+		
+		
+		
+		
+		if (Input.GetKeyDown(triggerKey)) {
 			
-			if (!rotating &&  Input.GetKeyDown(triggerKey) && !onStage) {
-				Debug.Log("ONSTAGE == FALSE");
+			if (onStage == false) {
 				
-				rotationCount = (rotationCount + 1) % 4;
-				DoRotation();
-				
+				iTween.RotateTo(gameObject, iTween.Hash(axis, startAngle, "easeType", myEasingType, "loopType", "none", "delay", inTriggerDelay*randomDelayFactor, "time", inRotationSpeed*randomSpeedFactor));
 				randomDelayFactor = Random.Range(.7F, 1.7F);
 				randomSpeedFactor = Random.Range(.7F, 1.7F);
-
-				
 				onStage = true;
-
-		}
-
-			if (!rotating && Input.GetKeyDown(triggerKey) && onStage) {
-				rotationCount = (rotationCount - 1) % 4;
-				Debug.Log("ONSTAGE == TRUE");
+				Debug.Log ("Trigger key pressed - onstage = "+onStage+" startAngle ="+startAngle);
 				
-				DoRotation();	
-
+				
+			} else if (onStage == true) {
+				
+				iTween.RotateTo(gameObject, iTween.Hash(axis, endAngle, "easeType", myEasingType, "loopType", "none", "delay", outTriggerDelay*randomDelayFactor, "time",outRotationSpeed*randomSpeedFactor));
+				randomDelayFactor = Random.Range(.7F, 1.7F);
+				randomSpeedFactor = Random.Range(.7F, 1.7F);
 				onStage = false;
-		
+				Debug.Log ("Trigger key pressed - onstage = "+onStage+" endAngle ="+endAngle);
+				
+				
 			}
-
-
-
-
+			
+			
+			
+		}	
+		
+		
+		
 		// I want this code to only execute in the editor - to test look and feel
-#if UNITY_EDITOR
+		#if UNITY_EDITOR
 		
 		switch (SetEasingType) 
 		{
@@ -402,137 +394,42 @@ public class SceneryAnimationTweenIn : MonoBehaviour {
 		}
 		
 		
-		//switch (SetEntryDirection) 
-		//{
-		//case SetEntryDirections.FromTop:
-		//	
-		//	axis = "x";
-		//	//startAngle = 180.0f;
-		//	//endAngle = 90.0f;
-		//	//Debug.Log("FromTop: StartAngle= "+startAngle+"; EndAngle="+endAngle+"; Axis="+axis);
-		//	break;
-		//	
-		//case SetEntryDirections.FromBottom:
-		//	
-		//	axis = "x";
-		//	startAngle = 0.0f;
-		//	endAngle = 90.0f;
-		//	//Debug.Log("FromBottom: StartAngle= "+startAngle+"; EndAngle="+endAngle+"; Axis="+axis);
-		//	break;
-		//case SetEntryDirections.FromLeft:
-		//	
-		//	axis = "y";
-		//	startAngle = 0f;
-		//	endAngle = -90.0f;
-		//	//Debug.Log("FromLeft: StartAngle= "+startAngle+"; EndAngle="+endAngle+"; Axis="+axis);
-		//	break;
-		//case SetEntryDirections.FromRight:
-		//	axis = "y";
-		//	startAngle = 180f;
-		//	endAngle = 270f;
-		//	//Debug.Log("FromRight: StartAngle= "+startAngle+"; EndAngle="+endAngle+"; Axis="+axis);
-		//	
-		//	break;
-		//}
-
-#endif
-
+		switch (SetEntryDirection) 
+		{
+		case SetEntryDirections.FromTop:
+			
+			axis = "x";
+			startAngle = 180.0f;
+			endAngle = 90.0f;
+			//Debug.Log("FromTop: StartAngle= "+startAngle+"; EndAngle="+endAngle+"; Axis="+axis);
+			break;
+			
+		case SetEntryDirections.FromBottom:
+			
+			axis = "x";
+			startAngle = 0.0f;
+			endAngle = 90.0f;
+			//Debug.Log("FromBottom: StartAngle= "+startAngle+"; EndAngle="+endAngle+"; Axis="+axis);
+			break;
+		case SetEntryDirections.FromLeft:
+			
+			axis = "y";
+			startAngle = 0f;
+			endAngle = -90.0f;
+			//Debug.Log("FromLeft: StartAngle= "+startAngle+"; EndAngle="+endAngle+"; Axis="+axis);
+			break;
+		case SetEntryDirections.FromRight:
+			axis = "y";
+			startAngle = 180f;
+			endAngle = 270f;
+			//Debug.Log("FromRight: StartAngle= "+startAngle+"; EndAngle="+endAngle+"; Axis="+axis);
+			
+			break;
+		}
+		
+		#endif
+		
 	}
 	
-	//void setIsKinematicTrue() {
-	//	Debug.Log("Setting isKinematic to True");
-	//	if (collider2) { collider2.rigidbody.isKinematic = true; }
-	//	if (collider3) { collider3.rigidbody.isKinematic = true; }
-	//	if (collider4) { collider4.rigidbody.isKinematic = true; }
-	//	if (collider5) { collider5.rigidbody.isKinematic = true; }
-	//	if (collider6) { collider6.rigidbody.isKinematic = true; }
-	//	if (collider7) { collider7.rigidbody.isKinematic = true; }
-	//	if (collider8) { collider8.rigidbody.isKinematic = true; }
-	//	if (collider9) { collider9.rigidbody.isKinematic = true; }
-	//	if (collider10) { collider10.rigidbody.isKinematic = true; }
-	//	
-	//}
-	//
-	//void setIsKinematicFalse() {
-	//	//Debug.Log("In function: setIsKinematicFalse()");
-	//	//collider2.rigidbody.WakeUp();
-	//	if (collider2) { collider2.rigidbody.isKinematic = false; }
-	//	//Debug.Log("Setting isKinematic on collider 2 to false");
-	//	if (collider3) { collider3.rigidbody.isKinematic = false; }
-	//	if (collider4) { collider4.rigidbody.isKinematic = false; }
-	//	if (collider5) { collider5.rigidbody.isKinematic = false; }
-	//	if (collider6) { collider6.rigidbody.isKinematic = false; }
-	//	if (collider7) { collider7.rigidbody.isKinematic = false; }
-	//	if (collider8) { collider8.rigidbody.isKinematic = false; }
-	//	if (collider9) { collider9.rigidbody.isKinematic = false; }
-	//	if (collider10) { collider10.rigidbody.isKinematic = false; }
-	//	
-	//}
-	//void disableColliders() {
-	//	
-	//	if (collider1) { collider1.collider.enabled = false; Debug.Log("In disableColliders(). Setting collider1 to off"); }
-	//	if (collider2) { collider2.collider.enabled = false; }
-	//	if (collider3) { collider3.collider.enabled = false; }
-	//	if (collider4) { collider4.collider.enabled = false; }
-	//	if (collider5) { collider5.collider.enabled = false; }
-	//	if (collider6) { collider6.collider.enabled = false; }
-	//	if (collider7) { collider7.collider.enabled = false; }
-	//	if (collider8) { collider8.collider.enabled = false; }
-	//	if (collider9) { collider9.collider.enabled = false; }
-	//	if (collider10){ collider10.collider.enabled = false; }
-	//}
-	//void completedEntryAndRotate() {
-	//	
-	//	//Debug.Log("Completed Entry and Rotate");
-	//	if (collider1) { collider1.collider.enabled = true; 
-	//		//Debug.Log("Setting collider1 to on"); 
-	//	}
-	//	if (collider2) { collider2.collider.enabled = true; }
-	//	if (collider3) { collider3.collider.enabled = true; }
-	//	if (collider4) { collider4.collider.enabled = true; }
-	//	if (collider5) { collider5.collider.enabled = true; }
-	//	if (collider6) { collider6.collider.enabled = true; }
-	//	if (collider7) { collider7.collider.enabled = true; }
-	//	if (collider8) { collider8.collider.enabled = true; }
-	//	if (collider9) { collider9.collider.enabled = true; }
-	//	if (collider10){ collider10.collider.enabled = true; }
-	//	//setIsKinematicFalse();
-	//	//onStage = true;
-	//}
-	//
-	//void completedExitAndRotate() {
-	//	
-	//	Debug.Log("Completed Exit and Rotate");
-	//	if (collider1) { collider1.collider.enabled = true; }
-	//	if (collider2) { collider2.collider.enabled = true; }
-	//	if (collider3) { collider3.collider.enabled = true; }
-	//	if (collider4) { collider4.collider.enabled = true; }
-	//	if (collider5) { collider5.collider.enabled = true; }
-	//	if (collider6) { collider6.collider.enabled = true; }
-	//	if (collider7) { collider7.collider.enabled = true; }
-	//	if (collider8) { collider8.collider.enabled = true; }
-	//	if (collider9) { collider9.collider.enabled = true; }
-	//	if (collider10){ collider10.collider.enabled = true; }
-	//	onStage = false;
-	//}
-
-	void DoRotation() {
-		rotating = true;
-		Debug.Log("Rotation count: "+rotationCount);
-		float rot = rotationCount * 90 - destinationAngle ;
-		iTween.RotateTo(gameObject, iTween.Hash(axis, rot, "easeType", myEasingType, "loopType", "none", "delay", inTriggerDelay*randomDelayFactor, "time", inRotationSpeed*randomSpeedFactor, "oncomplete", "endRotation"));
-
-
-
-		//iTween.RotateTo(gameObject, iTween.Hash(axis, -90f, "easeType", myEasingType, "loopType", "none", "delay", outTriggerDelay*randomDelayFactor, "time",outRotationSpeed*randomSpeedFactor));
-
-	}
-
-	void endRotation() {
-		rotating = false;
-		// set new variation for next rotation
-		randomDelayFactor = Random.Range(.7F, 1.7F);
-		randomSpeedFactor = Random.Range(.7F, 1.7F);
-	Debug.Log("In end rotation");
-	}
+	
 }

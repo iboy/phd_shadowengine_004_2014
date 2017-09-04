@@ -51,7 +51,7 @@ public class PuppetHelperDragon_001 : MonoBehaviour {
 
 
 	void Awake () {
-		Debug.Log ("An instance of DragonHelper has been create: AWAKE");
+		Debug.Log ("An instance of DragonHelper has been created: AWAKE");
 		// I guess the instance isn't around at 'awake' time
 		GameObject _AnimationOSCController = GameObject.Find("_AnimationOSCController");
 		GameObject _AnimationHandlers = GameObject.Find("_AnimationHandlers");

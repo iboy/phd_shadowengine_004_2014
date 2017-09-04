@@ -63,7 +63,9 @@ public class MouseTracker : MonoBehaviour {
 	{
 
 		//if (Input.touchCount == 0 && isMouseDown == false) {
+		if (jointTrans != null) {
 			Destroy (jointTrans.gameObject);
+		}
 		//}
 		
 	}
