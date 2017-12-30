@@ -2,17 +2,12 @@
 
 Highlights: Your Fry, Billy Waters, Karagöz, UniOSC, other FX.
 
-Billy Waters
-
-Your Fry
-
-Karagöz
-
-UniOSC
-
-Cinematic effects
-
-Custom Unity editor UI to enable performance
+* Billy Waters
+* Your Fry
+* Karagöz
+* UniOSC
+* Cinematic effects
+* Custom Unity editor UI to enable real-time performance control
 
 
 ![iPad prototype](screenshot.jpg)
