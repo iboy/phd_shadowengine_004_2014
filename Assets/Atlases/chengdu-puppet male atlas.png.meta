@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 9e832f12d3f2b4766826d98199d5ccf8
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: chengdu-puppet male_head
+    21300002: chengdu-puppet male body upper
+    21300004: chengdu-puppet male left hand fingers
+    21300006: chengdu-puppet male left hand
+    21300008: chengdu-puppet male left arm upper
+    21300010: chengdu-puppet male left arm lower
+    21300012: chengdu-puppet malebody lower
+    21300014: chengdu-puppet male left shoe
+    21300016: chengdu-puppet male right shoe
+    21300018: chengdu-puppet male left leg
+    21300020: chengdu-puppet male right leg
+    21300022: chengdu-puppet male right hand fingers
+    21300024: chengdu-puppet male right hand
+    21300026: chengdu-puppet male right arm lower
+    21300028: chengdu-puppet male right arm upper
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 180
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: chengdu-puppet male_head
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 545
+        width: 178
+        height: 192
+      alignment: 9
+      pivot: {x: .629015982, y: .168776825}
+      border: {x: 1, y: 0, z: 0, w: 0}
+    - name: chengdu-puppet male body upper
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 322
+        width: 151
+        height: 207
+      alignment: 9
+      pivot: {x: .590916932, y: .190001994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chengdu-puppet male left hand fingers
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 552
+        width: 34
+        height: 63
+      alignment: 9
+      pivot: {x: .621231973, y: .200906426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chengdu-puppet male left hand
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 477
+        width: 59
+        height: 53
+      alignment: 9
+      pivot: {x: .769469678, y: .233355254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chengdu-puppet male left arm upper
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 482
+        width: 109
+        height: 124
+      alignment: 9
+      pivot: {x: .856546402, y: .894143879}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chengdu-puppet male left arm lower
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 330
+        width: 164
+        height: 121
+      alignment: 9
+      pivot: {x: .823144674, y: .276143223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chengdu-puppet malebody lower
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 128
+        width: 153
+        height: 173
+      alignment: 9
+      pivot: {x: .46536234, y: .809737384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chengdu-puppet male left shoe
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 24
+        width: 116
+        height: 70
+      alignment: 9
+      pivot: {x: .51015234, y: .72712481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chengdu-puppet male right shoe
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 16
+        width: 91
+        height: 90
+      alignment: 9
+      pivot: {x: .415880144, y: .630853713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chengdu-puppet male left leg
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 48
+        width: 161
+        height: 252
+      alignment: 9
+      pivot: {x: .715786576, y: .94630456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chengdu-puppet male right leg
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 45
+        width: 209
+        height: 248
+      alignment: 9
+      pivot: {x: .173179224, y: .9463799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chengdu-puppet male right hand fingers
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 331
+        width: 60
+        height: 43
+      alignment: 9
+      pivot: {x: .774793506, y: .787574232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chengdu-puppet male right hand
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 333
+        width: 39
+        height: 63
+      alignment: 9
+      pivot: {x: .560395062, y: .799095511}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chengdu-puppet male right arm lower
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 435
+        width: 150
+        height: 138
+      alignment: 9
+      pivot: {x: .178100184, y: .79015404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chengdu-puppet male right arm upper
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 615
+        width: 148
+        height: 80
+      alignment: 9
+      pivot: {x: .0782623291, y: .831224084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
